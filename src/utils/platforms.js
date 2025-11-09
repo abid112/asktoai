@@ -1,5 +1,3 @@
-import config from '../config';
-
 /**
  * AI Platform configurations
  */
@@ -10,7 +8,7 @@ export const platforms = [
     color: 'bg-gradient-to-r from-green-500 to-emerald-600',
     icon: '🤖',
     logo: '/images/platforms/chatgpt.png',
-    getUrl: (prompt) => `${config.platforms.chatgpt}${encodeURIComponent(prompt)}`,
+    getUrl: (prompt) => `https://chat.openai.com/?q=${encodeURIComponent(prompt)}`,
   },
   {
     id: 'claude',
@@ -18,7 +16,7 @@ export const platforms = [
     color: 'bg-gradient-to-r from-purple-500 to-indigo-600',
     icon: '🧠',
     logo: '/images/platforms/claude.png',
-    getUrl: (prompt) => `${config.platforms.claude}${encodeURIComponent(prompt)}`,
+    getUrl: (prompt) => `https://claude.ai/new?q=${encodeURIComponent(prompt)}`,
   },
   {
     id: 'gemini',
@@ -26,7 +24,7 @@ export const platforms = [
     color: 'bg-gradient-to-r from-blue-500 to-cyan-600',
     icon: '✨',
     logo: '/images/platforms/gemini.png',
-    getUrl: (prompt) => `${config.platforms.gemini}${encodeURIComponent(prompt)}`,
+    getUrl: (prompt) => `https://gemini.google.com/app?q=${encodeURIComponent(prompt)}`,
   },
   {
     id: 'grok',
@@ -34,7 +32,7 @@ export const platforms = [
     color: 'bg-gradient-to-r from-gray-700 to-gray-900',
     icon: '🚀',
     logo: '/images/platforms/grok.png',
-    getUrl: (prompt) => `${config.platforms.grok}${encodeURIComponent(prompt)}`,
+    getUrl: (prompt) => `https://x.com/i/grok?q=${encodeURIComponent(prompt)}`,
   },
   {
     id: 'perplexity',
@@ -42,7 +40,7 @@ export const platforms = [
     color: 'bg-gradient-to-r from-teal-500 to-blue-600',
     icon: '🔍',
     logo: '/images/platforms/perplexity.png',
-    getUrl: (prompt) => `${config.platforms.perplexity}${encodeURIComponent(prompt)}`,
+    getUrl: (prompt) => `https://www.perplexity.ai/?q=${encodeURIComponent(prompt)}`,
   },
 ];
 
