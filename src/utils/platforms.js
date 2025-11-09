@@ -32,7 +32,7 @@ export const platforms = [
     color: 'bg-gradient-to-r from-gray-700 to-gray-900',
     icon: '🚀',
     logo: '/images/platforms/grok.png',
-    getUrl: (prompt) => `https://x.com/i/grok?q=${encodeURIComponent(prompt)}`,
+    getUrl: (prompt) => `https://x.com/i/grok?text=${encodeURIComponent(prompt)}`,
   },
   {
     id: 'perplexity',
