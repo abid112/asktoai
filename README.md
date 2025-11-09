@@ -21,10 +21,7 @@ Create shareable links that prefill prompts for multiple AI platforms (ChatGPT, 
 
 - **Frontend**: React 18 + Vite
 - **Styling**: TailwindCSS
-- **Routing**: React Router v6
-- **Database**: Supabase (production) / URL-encoded (demo)
-- **Serverless**: Vercel Functions / Cloudflare Workers compatible
-- **QR Codes**: qrcode.react
+- **No Database**: Direct links to AI platforms (no backend required)
 
 ## ☕ Support the Project
 
