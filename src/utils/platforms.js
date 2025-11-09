@@ -24,7 +24,7 @@ export const platforms = [
     color: 'bg-gradient-to-r from-blue-500 to-cyan-600',
     icon: '✨',
     logo: '/images/platforms/gemini.png',
-    getUrl: (prompt) => `https://gemini.google.com/app?q=${encodeURIComponent(prompt)}`,
+    getUrl: (prompt) => `https://www.google.com/search?udm=50&aep=11&q=${encodeURIComponent(prompt)}`,
   },
   {
     id: 'grok',
